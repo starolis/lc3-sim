@@ -7,7 +7,7 @@ sim = LC3Simulator()
 sim.load_program(program)
 
 # Run the simulation for a few steps
-sim.run(steps=1)
+sim.run(steps=2)
 
 # Peek at values
 print("Registers:", sim.peek_registers())
