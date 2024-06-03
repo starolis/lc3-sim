@@ -3,7 +3,7 @@ class LC3Registers:
         self.registers = {f"R{i}": 0 for i in range(8)}
         self.PC = 0
         self.IR = 0
-        self.CC = {"N": 0, "Z": 0, "P": 0}
+        self.CC = {"N": 0, "Z": 1, "P": 0}
 
 
 class LC3Memory:
